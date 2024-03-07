@@ -33,7 +33,7 @@ header h1 {
 
 .container {
   max-width: 960px;
-  width: 100px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -51,7 +51,7 @@ form input {
   background-color: #fff;
   border: none;
   border-bottom: 2px solid #000;
-  padding: 24px;
+  padding: 8px;
 }
 
 form button {
@@ -65,22 +65,21 @@ form button {
 }
 
 .botao-azul:hover {
-  background-color: #0056b3; /* Altera a cor de fundo ao passar o mouse */
+  background-color: #0056b3; 
 }
 
 table {
   width: 100%;
 }
-
 table th {
-  border-bottom: 2ppx solid #000;
+  border-bottom: 2px solid #000;
   padding: 16px;
   font-size: 24px;
   font-weight: bold;
 }
 
 table td {
-  padding: 16px;
+  padding: 8px 0;
   text-align: center;
   font-size: 18px;
   border-bottom: 1px solid rgba(0,0,0,0.1);
@@ -91,7 +90,7 @@ table td img {
 }
 
 .resultado {
-  padding: 8px;
+  padding: 6px;
   font-weight: bold;
   color: #fff;
   background-color: #000;
